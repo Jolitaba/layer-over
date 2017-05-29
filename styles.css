@@ -1,0 +1,98 @@
+/*Navigation*/
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand, .jumbotron h1 {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-weight: 800;
+	color: black;
+	text-transform: uppercase;
+}
+
+/*Welcome*/
+
+.jumbotron {
+	padding-top: 100px 0;
+	background: url("img/bg-3.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.jumbotron h1 {
+	font-size: 39px;
+	color: white;
+}
+
+.jumbotron p {
+	font-size: 16px;
+	color: white;
+	line-height: 1.6;
+}
+
+.btn-lg .tn-sm .btn {
+		border-radius: 0px;
+}
+
+
+.what .glyphicon {
+	font-size: 36px;
+}
+
+.what h5 {
+	font-weight: bold;
+}
+
+.glyphicon-wrench {
+	color: gray;
+}
+
+/* Latest news */
+.item-img-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.item-img-wrap img {
+    max-width: 100%;
+    transition:all 200ms linear;
+}
+
+.item-img-overlay {
+    opacity: 0;
+    transition: opacity 250ms linear;
+}
+
+.item-img-wrap:hover .item-img-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7) url("img/download.png") center center no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.item-img-wrap:hover img {
+	transform: scale(1.1);
+}
+
+
+/*
+.test {
+	background: gray;
+	height:100px;
+	width: 100%;
+}
+
+@media(min-width: 768px) and (max-width:991px) {
+
+	.test {
+	width: 50%;
+	background:green;
+	}
+
+}

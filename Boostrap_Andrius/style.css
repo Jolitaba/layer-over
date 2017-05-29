@@ -1,0 +1,45 @@
+/* Navigation */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand, .jumbotron h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000;
+}
+
+
+/* Welcome block */
+.jumbotron {
+    padding: 100px 0;
+    background: url("img/bg-3.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.jumbotron h1 {
+    font-size: 39px;
+    color: white;
+}
+
+.jumbotron p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.btn, .btn-sm, .btn-lg {
+    border-radius: 0;
+}
+
+
+/* What block */
+.what .glyphicon {
+    font-size: 36px;
+}
+
+h5 { font-weight: bold }
